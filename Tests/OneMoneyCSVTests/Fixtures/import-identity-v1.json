@@ -1,0 +1,36 @@
+{
+  "namespace": "22567d33-1f45-5af1-b0a3-843ee64f7b3a",
+  "files": [
+    {
+      "fixture": "legacy-ledger.csv",
+      "sha256": "904fbba4ec591dcc6fab15bc793fa9c80de67d146c88ebe4118bc9b98fe08309",
+      "vectors": [
+        {"tag": "receipt", "key": [], "uuid": "4206b8be-10f9-52a5-bf91-c435f3eabca2"},
+        {"tag": "account", "key": ["Pocket EUR", "EUR"], "uuid": "079826d8-982b-5253-a508-bdc233285275"},
+        {"tag": "category", "key": ["Expense", "Sample books"], "uuid": "2ff8e672-5390-5999-965a-6393c7e4f234"},
+        {"tag": "category", "key": ["Expense", "Sample books", "Print"], "uuid": "940ec6e9-9dbd-59fa-a595-c7da8115f3c6"},
+        {"tag": "transaction", "key": ["0"], "uuid": "498dad00-c86b-561f-a0e5-1fddd27d94c7"},
+        {"tag": "transaction", "key": ["1"], "uuid": "649e9ece-fe4f-57d3-b1f3-eb4ad8d1d387"},
+        {"tag": "receipt-row", "key": ["0"], "uuid": "2ad64f96-ff03-5ed3-a093-754f53a560e5"},
+        {"tag": "opening", "key": ["Pocket EUR", "EUR"], "uuid": "493d9f8e-0097-5232-93b1-a706e318b497"},
+        {"tag": "snapshot-adjustment", "key": ["Pocket EUR", "EUR"], "uuid": "2acf5665-a52b-53d4-ad59-9ff4059a2419"},
+        {"tag": "reporting-opening", "key": ["USD", "17.5", "rates", "EUR", "1.25"], "uuid": "66057346-6b6e-54d8-b8d6-79eb40506075"},
+        {"tag": "reporting-opening", "key": ["USD", "17.5", "total"], "uuid": "8971cb73-ae47-5323-ac61-2a3610f3e59a"},
+        {"tag": "reporting-opening", "key": ["GBP", "12.3", "rates", "EUR", "0.8", "USD", "0.75"], "uuid": "3c821a5b-f904-50e8-aaf3-a9690eeb171f"}
+      ]
+    },
+    {
+      "fixture": "legacy-localized.csv",
+      "sha256": "8e5cd261f60584905219096aa5345dfc1554bc5bc8894e610ae66b6d09b6b518",
+      "vectors": [
+        {"tag": "account", "key": ["Café purse", "EUR"], "uuid": "6cdab236-ae50-57c6-aa08-70e0e6596f1d"},
+        {"tag": "account", "key": ["Stage cash", "USD", "0"], "uuid": "d65769a4-3960-5306-97ff-722081034807"},
+        {"tag": "account", "key": ["Stage cash", "USD", "1"], "uuid": "13e8d775-840f-5844-99a8-3956a628a5d1"},
+        {"tag": "opening", "key": ["Stage cash", "USD", "1"], "uuid": "145deb30-c631-5cd2-8127-9108b9382709"},
+        {"tag": "snapshot-adjustment", "key": ["Stage cash", "USD", "1"], "uuid": "f351d907-89ef-543e-9167-42115af8498f"},
+        {"tag": "category", "key": ["Expense", "Travel"], "uuid": "3446b91e-5a68-5e0c-9935-fd607018e9c5"},
+        {"tag": "category", "key": ["Expense", "Travel", "Hotels (EU)"], "uuid": "132ece8c-9d0c-53c9-9a5c-495f64d9ad53"}
+      ]
+    }
+  ]
+}

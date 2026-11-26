@@ -1,0 +1,5 @@
+# Import identity vectors depend on the fixture bytes, including line endings.
+Tests/OneMoneyCSVTests/Fixtures/legacy-ledger.csv -text
+Tests/OneMoneyCSVTests/Fixtures/legacy-localized.csv text eol=lf
+# Tests vary record terminators in memory while preserving the quoted multiline note.
+Tests/OneMoneyCSVTests/Fixtures/legacy-parser-cases.csv text eol=lf

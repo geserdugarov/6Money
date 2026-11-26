@@ -1,0 +1,11 @@
+"DATE","TYPE","FROM ACCOUNT","TO ACCOUNT / TO CATEGORY","AMOUNT","CURRENCY","AMOUNT 2","CURRENCY 2","TAGS","NOTES"
+"02.03.2024","Expense","Pocket EUR","Sample books (Print)","3","EUR","4.50","USD","","ПРОБА, sample"
+"02.03.2024","Expense","Pocket EUR","Sample books (Print)","3","EUR","4.50","USD","","ПРОБА, sample"
+"02.03.2024","Transfer","Envelope USD","Pocket EUR","10","USD","8","EUR","",""
+"01.03.2024","Income","Envelope USD","Demo income","20","USD","20","USD","",""
+,
+,
+"NAME","BALANCE","CURRENCY"
+"Pocket EUR","6","EUR"
+"Envelope USD","10","USD"
+,

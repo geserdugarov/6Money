@@ -1,0 +1,12 @@
+"DATE","TYPE","FROM ACCOUNT","TO ACCOUNT / TO CATEGORY","AMOUNT","CURRENCY","AMOUNT 2","CURRENCY 2","TAGS","NOTES"
+"03.04.2024","Expense","Stage wallet","Set supplies (Props)","3.50","USD","3.50","USD","","  keep ""both""
+lines  "
+"03.04.2024","Income","Stage wallet","Set supplies (Props)","9","USD","9","USD","","Intermission"
+"03.04.2024","Expense","Stage wallet","Set supplies (Props)","3.50","USD","3.50","USD","","  keep ""both""
+lines  "
+,
+,
+"NAME","BALANCE","CURRENCY"
+"Reserve tin","0","EUR"
+"Stage wallet","2","USD"
+,

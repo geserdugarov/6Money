@@ -24,11 +24,20 @@
 
 # Private screenshots, financial exports, and working copies of ledgers
 tmp/
-/1Money_*.csv
+1Money_*.csv
+IMG_*.PNG
 *.sqlite
 *.sqlite-journal
 *.sqlite-shm
 *.sqlite-wal
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-shm
+*.sqlite3-wal
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
 
 # Build output, logs, and scratch files
 build/
@@ -40,7 +49,8 @@ logs/
 *.bak
 .cache/
 
-# SwiftPM and Xcode output. Keep Package.resolved and shared project settings.
+# SwiftPM and XcodeGen output. Keep the root Package.resolved and ios/project.yml.
+/ios/SixMoney.xcodeproj/
 .build/
 .swiftpm/xcode/package.xcworkspace/
 DerivedData/
