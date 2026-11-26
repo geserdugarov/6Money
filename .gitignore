@@ -1,0 +1,53 @@
+# Local agent and editor state
+.codex
+.codex-*
+.claude/*
+!.claude/skills/
+/.cocoindex_code/
+/.ast-metrics-report
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+.DS_Store
+
+# Local configuration and Apple signing credentials
+.env
+.env.*
+!.env.example
+*.p8
+*.p12
+*.mobileprovision
+*.provisionprofile
+*.keychain-db
+
+# Private screenshots, financial exports, and working copies of ledgers
+tmp/
+/1Money_*.csv
+*.sqlite
+*.sqlite-journal
+*.sqlite-shm
+*.sqlite-wal
+
+# Build output, logs, and scratch files
+build/
+dist/
+out/
+logs/
+*.log
+*.tmp
+*.bak
+.cache/
+
+# SwiftPM and Xcode output. Keep Package.resolved and shared project settings.
+.build/
+.swiftpm/xcode/package.xcworkspace/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcresult
+*.xcarchive
+*.ipa
+*.dSYM
+*.dSYM.zip
